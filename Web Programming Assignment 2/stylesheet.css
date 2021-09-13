@@ -1,0 +1,266 @@
+*{
+  margin: 0px;
+}
+
+body {
+  font-family: 'Anaheim';
+  font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  .header-logo a{
+    color:white;
+  }
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+
+li {
+    list-style: none;
+  }
+
+.header-logo {
+    color: white;
+    font-size:35px;
+    font: bold;
+    float:left;
+    padding:10px;
+  }
+
+.header-list li {
+    color:white;
+    text-align:center;
+    float:right;
+    padding:20px;
+    font-size: 15px;
+  }
+
+main{
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:300px;
+    padding-left:300px;
+    background-color: #adf10f;
+    background-image: url(pic.png);
+  }
+
+  #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background:#fe8b8e;
+    text-align:center;
+    font-size: 14px;
+    
+    transition: all 0.5s ease;
+}
+.heading h1{
+    font-size:80px;
+    text-align:center;
+    color:rgb(163, 9, 9);
+    font-weight: bold;
+    padding:20px;
+    }
+
+input, textarea {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #021f2e;
+  }
+
+select, dropdown {
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.survey h1{
+  font-size:50px;
+  text-align:center;
+  color:rgb(121, 10, 10);
+}
+
+.survey h4{
+  font-size:25px;
+}
+
+.survey input, textarea{
+  width: 250px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #021f2e;
+  border-radius: 5px;
+}
+
+.button {
+    border-bottom: 1px solid #eee;
+    padding: 40px;
+    text-align: center;
+    size:200px;
+  }
+  
+.btn {
+    padding: 20px 40px;
+    background-color: #3e25ca;
+    cursor: pointer;
+    box-shadow: 0 7px #03144d;
+    color:white;
+  }
+  
+.btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+fieldset { 
+  border:2px solid rgb(36, 5, 5);
+  margin: 10px;
+  padding:80px;
+  background-color: rgba(176, 198, 226, 0.836);
+  border-radius: 20px;
+  width:60%;
+  align-content: center;
+ }
+
+.skills{
+     font-size: 30px;
+     font-weight: 100px;
+ }
+
+.feedback h2{
+     font-size: 40px;
+     color: rgb(207, 2, 2);
+ }
+
+footer{
+    background-color:#2f5167;
+    color:#fff;
+    height:auto;
+    padding:20px;
+  }
+  
+.footer-logo{
+    font-size:20px;
+    text-align: center;
+  }
+
+  .thanks{
+    height:350px;
+    font-size: 80px;
+    text-align:center;
+    padding-top:100px;
+  }
+
+  input{
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    main {
+      background-size: 250%;
+      padding:20px;
+    }
+
+    header {
+      height: 40px;
+    }
+  
+  .header-logo {
+      font-size:20px;
+      padding:10px;
+    }
+  
+  .header-list li {
+      padding:15px;
+      font-size: 10px;
+    }
+  
+  .heading h1{
+      font-size:40px;
+      padding-top:40px;
+      }
+
+  fieldset { 
+      margin: 10px;
+      padding:20px;
+      }
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .date-label {
+    width:200px;
+  }
+
+  .name {
+    font-size:17px;
+  }
+
+  .info{
+    font-size:17px;
+  }
+
+  .gender {
+    font-size:17px;
+  }
+
+  .sur{
+    padding-top:40px;
+  }
+
+  .survey h1{
+    font-size:25px;
+  }
+  
+  .survey h2{
+    font-size:15px;
+  }
+
+  .survey h4 {
+    font-size:15px;
+  }
+
+  .gender {
+    display:block;
+  }
+
+  .skill {
+    font-size:15px;
+  }
+  
+  .quest{
+    font-size:15px;
+  }
+
+  .skills{
+       font-size: 30px;
+       font-weight: 100px;
+   }
+
+   .feedback p{
+     padding:5px;
+     font-size:17px;
+   }
+
+   .thanks{
+     font-size:50px;
+     height:400px;
+   }
+  }

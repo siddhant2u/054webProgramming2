@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-logo"><a href="index.html">Survey</a></div>
+    <a href="#" class="header-list">
+      <ul>
+        <li>About</li>
+        <li>Contact us</li>
+        <li>Login/Signup</li>
+      </ul>
+    </a>
+  </header>
+
+  <main>
+    <div class="heading">
+      <h1>Survey Form</h1>
+    </div>
+
+    <form class="form" onsubmit="return validate()">
+    <fieldset>
+      <div id="error_message">Hi</div>
+      <legend>Personal Details</legend>
+      <div class="name, inputFiled">
+        <p>Name:</p>
+        <input type="text" placeholder="Enter name here">
+      </div>
+      <div class="username, inutField">
+        <p>UserName: </p><input type="text" size="65" name="Name" placeholder="Enter usermane"/>
+      </div>
+      <div class="password, inputField">
+        <p>Password: </p><input type="text" size="65" name="Password" placeholder="Enter Password"/>
+      </div>
+      
+      <div class="gender">
+        <p class="gender">Gender:</p>
+        <select value="" id="dropdown">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+
+      <div class="email">Email:</div>
+      <input type="text" placeholder="Email">
+
+      <div class="phone">Phone No.:</div>
+      <input type="number" placeholder="Phone Number">
+
+      <div class="date-label">Date of Birth:</div>
+      <input type="date" name="bday">
+
+      <div class="university">
+        <p>university:</p>
+        <select id="dropdown">
+          <option value="srm">SRM</option>
+          <option value="vit">VIT</option>
+          <option value="manipal">Manipal</option>
+          <option value="nsut">NSUT</option>
+          <option value="dtu">DTU</option>
+          <option value="amity">Amity</option>
+          <option value="nit">NIT</option>
+          <option value="iit">IIT</option>
+        </select>
+      </div>
+      
+      <div class="city">
+        <p>City:</p>
+        <select id="dropdown">
+          <option value="delhi">Delhi</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="chennai">Chennai</option>
+          <option value="banglore">Banglore</option>
+          </select>
+      </div>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <div class="feedback">
+        <h2>Feedback</h2>
+        <p>Describe your Experiance of working with us</p>
+        <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>  
+        <p>What do you want us to improve</p>
+        <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+        <p>Any suggestions</p>
+        <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>  
+        <p>*Required fields must be filled</p>
+      </div>
+    </fieldset>
+    <div class="button">
+        <input class="btn_submit, btn" type="submit" value="Submit" name="Submit" />
+        <input class="btn_reset, btn" type="reset" value="Reset" name="Reset" />
+    </div>
+  </main>
+  <footer>
+    <div class="footer-logo">Made By Siddhant</div>
+  </footer>
+  </div>
+</body>
+
+</html
